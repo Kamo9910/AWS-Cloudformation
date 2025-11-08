@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AWS Cloudformation</title>
+</head>
+<body>
+        <div class="centered-text">
+
+        <h1>AWS Cloudformation</h1>
+        
+        <img class="myImage" src="images.jpg" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+        
+        <h2>Project Overview:</h2>
+        <p>This project demonstrates how to provision and update an EC2 instance using AWS CloudFormation. It highlights your ability to define infrastructure as code, manage security groups, assign Elastic IPs, and enable SSH access — all without touching the AWS Console manually.</p>
+        <h3>Technologies used </h3>
+        <p>- AWs CloudFormation <br>
+           - Amazon EC2 <br>
+           - Elastic IP <br>
+           - Security Groups <br>
+           - AWS CLI</p>
+         <h3>Steps taken to complets this project :</h3>
+            <h4>1. Initial EC2 launch via Cloudformation</h4>
+            <img class="myImage" src="Screenshot (1).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+             <br>
+            <img class="myImage" src="Screenshot (2).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (3).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (4).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (5).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (6).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (7).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (8).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (9).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (10).png" alt="EC2" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (11).png" alt="EC2" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <p>- Created a basic Cloudformation template to launch a t2.micro EC2 instance <br>
+               -  Resources: MyInstance <br>
+               Properties: <br>
+               -AvailabilityZone: us-east-1a <br>
+               -ImageId: ami-0453ec754f44f9a4a</p>
+            <br>
+            <h4>2. Update the template </h4>
+            <img class="myImage" src="Screenshot (12).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (13).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (14).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (15).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (16).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (17).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (18).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (19).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (20).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (21).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (22).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (25).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (26).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (27).png" alt="AWS Cloudformation" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (28).png" alt="EC2" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (29).png" alt="EC2" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <img class="myImage" src="Screenshot (31).png" alt="Elastic IP" style="transition: transform 0.3s ease;" height="50%" width="50%">
+            <br>
+            <p>Update the the template to include: <br>
+               - an elastic IP for our instance <br>
+               - EC2 security group <br>
+               - second EC2 security group</p>
+            <h3>What This Project Demonstrates</h3>
+            <p>- Infrastructure as code mindset <br>
+               - Modular CloudFormation design <br>
+               - Security conscious EC2 provisioning <br>
+               - Real world deployment and update flow <br>
+               - Comfort with AWS CLI and YAML syntax</p>
+           </div>
+
+        <script src="javascript.js" charset="utf-8" ></script>
+
+</body>
+</html>
